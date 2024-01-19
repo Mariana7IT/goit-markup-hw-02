@@ -63,7 +63,7 @@ ul, ol {
 }
 .hero-title {
     color: #FFF;
-    background-color: #4D5AE5
+    background: #4D5AE5
     text-align: center;
     font-size: 56px;
     line-height: 1.07;
@@ -71,7 +71,7 @@ ul, ol {
 }
 .hero-btn {
     color: #FFF;
-    background-color: #4D5AE5 
+    background: #4D5AE5 
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
