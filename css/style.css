@@ -53,8 +53,8 @@ ul, ol {
 
 .contacts-link:hover,
 .contacts-link:focus {
-    background-color: #404BBF;
-    background-color: #404BBF;
+    color: #404bbf;
+    color: #404bbf
 }
 
 /*========MAIN========== */
@@ -71,6 +71,7 @@ ul, ol {
 
 }
 .hero-btn {
+    color: #FFFFFF;
     background: #4D5AE5;
     text-align: center;
     font-family: "Roboto", sans-serif;
@@ -79,7 +80,11 @@ ul, ol {
     line-height: 1.5;
     letter-spacing: 0.04em;
 }
-
+.hero-btn:hover,
+.hero-btn:active,
+.hero-btn:focus {
+    background-color: #404BBF;
+}
 /*========SECTION2-Features========== */
 
 .visually-hidden {
