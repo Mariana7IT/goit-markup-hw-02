@@ -36,7 +36,8 @@ ul, ol {
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #404BBF;
+    color: #404bbf
+    color: #404bbf
 }
 
 .address {
@@ -62,16 +63,15 @@ ul, ol {
     background: #2E2F42;
 }
 .hero-title {
+    text-align: center
     color: #FFF;
     background: #4D5AE5
-    text-align: center;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
 }
 .hero-btn {
-    color: #FFF;
-    background: #4D5AE5 
+    background-color: #4D5AE5 
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -124,10 +124,11 @@ ul, ol {
 }
 
 .team-list {
-    background-color: #FFFFFF;   
+      
 }
 
 .team-item {
+    background-color: #FFFFFF; 
 }
 
 .team-subtitle {
