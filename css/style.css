@@ -71,22 +71,21 @@ ul, ol {
 
 }
 .hero-btn {
-    color: #ffffff;
     background: #4D5AE5;
+    color: #ffffff;
     cursor: pointer;
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.64em;
 }
 .hero-btn:hover,
 .hero-btn:active,
 .hero-btn:focus {
     background-color: #404BBF;
-    background-color: #404BBF;
-    background-color: #404BBF;
+   
 }
 /*========SECTION2-Features========== */
 
