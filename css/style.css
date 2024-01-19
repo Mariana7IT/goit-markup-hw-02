@@ -98,7 +98,7 @@ ul, ol {
 .features-item {
 }
 .features-subtitle {
-    color: var #2E2F42;
+    color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -143,10 +143,8 @@ ul, ol {
 }
 
 .team-item-text {
-    color: #434455);
-    text-align: center;
+    color: #434455;
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -173,7 +171,7 @@ ul, ol {
 }
 
 .portfolio-subtitle {
-    color:  #2E2F42;
+    color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
