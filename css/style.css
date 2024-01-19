@@ -1,7 +1,7 @@
 .body {
     font-family: "Roboto", sans-serif,
-    color: #434455;
-    background-color:#FFFFFF; 
+    color: #434455
+    background-color: #FFFFFF; 
     
 }
 
@@ -95,7 +95,7 @@ ul, ol {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.64em;
+    letter-spacing: 0.04em; 
 }
 .hero-btn:hover,
 .hero-btn:active,
