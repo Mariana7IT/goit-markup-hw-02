@@ -36,7 +36,7 @@ ul, ol {
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #404bbf
+    color: #404bbf;
     color: #404bbf;
 }
 
@@ -71,8 +71,9 @@ ul, ol {
 
 }
 .hero-btn {
-    color: #FFFFFF;
+    color: #ffffff;
     background: #4D5AE5;
+    cursor: pointer;
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -83,6 +84,8 @@ ul, ol {
 .hero-btn:hover,
 .hero-btn:active,
 .hero-btn:focus {
+    background-color: #404BBF;
+    background-color: #404BBF;
     background-color: #404BBF;
 }
 /*========SECTION2-Features========== */
