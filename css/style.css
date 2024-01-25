@@ -11,10 +11,31 @@ a{
 
 ul, ol {
     list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.header{
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.container {
+    width:100%;
+    max-width: 1158;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+.header-container {
+    display: flex;
+    align-items: center ;
 }
 
 .header-nav{
-
+    display: flex;
+    align-items: center ;
 }
 
 .logo-nav{
@@ -25,6 +46,7 @@ ul, ol {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 .logo-part {
     color: #2E2F42;
@@ -35,10 +57,13 @@ ul, ol {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
+    display: block;
 }
 
 .nav-list{
-
+    display: flex;
+    gap: 40px;
 }
 
 .nav-link:hover,
@@ -49,10 +74,12 @@ ul, ol {
 
 .address {
     font-style: normal;
+    margin-left: auto;
 }
 
 .contacts-list-link{
-
+    display: flex;
+    gap: 40px;
 }
 
 .contacts-list-item{
@@ -73,9 +100,17 @@ ul, ol {
 }
 
 /*========MAIN========== */
+.container-main{
+    display: flex;
+    align-items: center ;
+   
+}
 /*========SECTION1========== */
 .hero {
+    padding: 120px 0;
     background: #2E2F42;
+    display:inline-flexbox
+    a
 }
 .hero-title {color: #FFF;
     text-align: center;
@@ -83,9 +118,15 @@ ul, ol {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    max-width: 496px;
+    margin-bottom: 48px;
+    
+    
+    
 
 }
 .hero-btn {
+    
     background: #4D5AE5;
     color: #ffffff;
     cursor: pointer;
@@ -95,12 +136,19 @@ ul, ol {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em; 
+    border: none;
+    border-radius: 4px;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 10px;
+    margin-top: 48px;
+    margin: 0 auto;
+    
 }
 .hero-btn:hover,
 .hero-btn:active,
 .hero-btn:focus {
     background-color: #404BBF;
-   
 }
 /*========SECTION2-Features========== */
 
@@ -110,9 +158,12 @@ ul, ol {
     
 }
 .features {
+    padding: 120px 0;
     background: #FFF;
 }
 .features-list {
+    display: flex;
+    align-items: center ;
 }
 .features-item {
 }
@@ -134,7 +185,16 @@ ul, ol {
 /*========SECTION3-Team========== */
 
 .team {
+    padding: 120px 0;
     background: #F4F4FD;
+    max-width: 162px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 28px;
+}
+.team-container{
+    display: flex;
+    align-items: center ;
 }
 
 .team-title {
@@ -144,14 +204,24 @@ ul, ol {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    max-width: 162px;
+    width: 100%;
+    margin: 0 auto;
+    margin: 120 639 72px;
+    text-transform: capitalize;
+    display:block;
 }
 
 .team-list {
-      
+    display: flex;
+    align-items: center;
+   
 }
 
 .team-item {
     background-color: #FFFFFF; 
+    border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
 }
 
 .team-subtitle {
@@ -161,6 +231,7 @@ ul, ol {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .team-item-text {
@@ -174,6 +245,12 @@ ul, ol {
 
 .portfolio {
     background: #FFF;
+    padding: 120px 0;
+}
+
+.portfolio-container{
+    display:flex;
+    align-items: center ; 
 }
 
 .portfolio-title {
@@ -183,12 +260,19 @@ ul, ol {
     line-height: 1.11;
     letter-spacing: 2em;
     text-transform: capitalize;
+    display:block;
+   
 }
 
 .portfolio-list {
+    display: flex;
+    margin-top: 72px;
+    flex-wrap: wrap;
+    gap:
 }
 
 .portfolio-item {
+    flex-basis: calc((100% - 48px) / 3);
 }
 
 .portfolio-subtitle {
@@ -211,6 +295,7 @@ ul, ol {
 
 .footer {
     background: #2E2F42;
+    padding: 100px 0;
 }
 
 .footer-logo {
@@ -221,6 +306,8 @@ ul, ol {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo-part{
@@ -229,8 +316,9 @@ ul, ol {
 
 .footer-text {
     color:  #F4F4FD;
-font-size: 16px;
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.02em;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    max-width: 264px;
 }
